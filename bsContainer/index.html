@@ -11,7 +11,7 @@
 <style>
 body {
     height: 100vh;
-    background-color: rebeccapurple;
+    background-color: rgb(215, 212, 219);
 }
 .text-center{
     transition: 0.3s;
@@ -21,19 +21,31 @@ body {
     position: relative;
     padding: 0 auto;
 }
+.img{
+    transition: 0.3s;
+}
+.img:hover{
+    transform: scale(1.09) translateY(-40px);
+}
 </style>
 <body>
     <div class="container-fluid bg-info">
-        <h1 class="text-center text-light py-3 d-block">
-            Welcome to Boostrap learnig
+        <h1 class="text-center text-light py-3 d-block m-auto text-lowercase">
+            Welcome To Boostrap learnig
         </h1>
     </div>
     <div class="container bg-warning">
-        <h1 class="text-center py-2">
+        <h1 class="text-center py-2 border border-rounded text-uppercase">
             welcome to boostrap
         </h1>
     </div>
-    
+    <div class="container bg-danger">
+        <div class="btn btn-outline-primary  ms-5 my-3 text-light">hello there</div>
+
+    </div>   
+    <div class="container bg-info py-4">
+        <img src="img/spring-images-min.jpg" class="rounded-top img img-thumbnail d-block m-auto" alt="">
+    </div> 
 
 
     <!-- boostrap javascript cdn -->
